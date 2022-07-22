@@ -116,13 +116,9 @@ button{
   border: none;
   border-radius: 10px;
   box-shadow: 0 10px 25px hsl(245, 75%, 82%);
-  color: white;
   cursor: pointer;
-  letter-spacing: 0.3px;
   margin-bottom: 20px;
   padding: 12px;
-  font-size: 0.74rem;
-  font-weight: 700;
   width: 100%;
 }
 
@@ -130,12 +126,20 @@ button:hover{
   background-color: hsl(240, 75%, 67%);
 }
 
-.order-btn a{
+.pay-btn{
+  color: white;
+  letter-spacing: 0.3px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cancel-btn{
   color: hsl(224, 23%, 55%);
   text-decoration: none;
 }
 
-.order-btn a:hover{
+.cancel-btn:hover{
   color: hsl(223, 47%, 23%);
 }
 
